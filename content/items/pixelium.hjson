@@ -1,0 +1,7 @@
+type: Item
+name: Pixelium
+description: In Mindustry, everything is made of this. But this fact does not prevent it from being the most valuable and rare resource in the game.
+hardness: 8
+cost: 3
+color: ff00ff
+research: surge-alloy

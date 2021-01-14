@@ -1,0 +1,29 @@
+name: Omega Drill
+description: One of the few drills capable of mining Pixelium. Has tremendous power and mining speed.
+type: Drill
+size: 4
+health: 360
+drillTime: 120
+tier: 8
+drawRim: true
+consumes: {
+power: 2.5
+	liquid: {
+		liquid: water
+		amount: 0.25
+		booster: false
+		optional: false
+	}
+}
+liquidBoostIntensity: 1
+hasLiquids: true
+liquidCapacity: 120
+rotateSpeed: 2
+requirements: [
+	lead/225
+	silicon/400
+	titanium/135
+	surge-alloy/200
+]
+research: blast-drill
+category: production
