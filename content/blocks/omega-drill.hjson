@@ -3,14 +3,14 @@ description: One of the few drills capable of mining Pixelium. Has tremendous po
 type: Drill
 size: 4
 health: 360
-drillTime: 120
+drillTime: 140
 tier: 8
 drawRim: true
 consumes: {
-power: 2.5
+power: 4.5
 	liquid: {
 		liquid: water
-		amount: 0.25
+		amount: 0.2
 		booster: false
 		optional: false
 	}
@@ -18,12 +18,12 @@ power: 2.5
 liquidBoostIntensity: 1
 hasLiquids: true
 liquidCapacity: 120
-rotateSpeed: 2
+rotateSpeed: 10
 requirements: [
 	lead/225
-	silicon/400
+	silicon/425
 	titanium/135
-	surge-alloy/200
+	surge-alloy/250
 ]
 research: blast-drill
 category: production
