@@ -1,0 +1,16 @@
+type: Conveyor
+name: Pixel Conveyor
+health: 50
+solid: false
+floating: true
+insulated: true
+description: The best conveyor. It doesn't look very good, but it is effective.
+requirements: [
+  copper/1
+  titanium/1
+  pixelium/1
+]
+category: distribution
+speed: 0.4
+displayedSpeed: 12
+research: titanium-conveyor
