@@ -1,0 +1,33 @@
+name: Fire Drawer
+type: GenericSmelter
+description: Draws fire pixels - the shards needed to create "Bonfire"
+health: 120
+size: 3
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 90
+updateEffect: plasticburn
+consumes: {
+  power: 4.5
+    items:{
+     items:[
+      coal/5
+      pyratite/5
+      pixelium/600
+      ]
+   }
+     liquid: {
+    slag/20
+  }
+}
+requirements: [
+  lead/120
+  silicon/80
+  coal/60
+  surge-alloy/70
+  pixelium/180
+]
+category: crafting
+research: alloy-smelter
+outputItem: fire-pixel/1
