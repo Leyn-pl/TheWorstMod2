@@ -6,11 +6,9 @@ floating: true
 insulated: true
 description: The best conveyor. It doesn't look very good, but it is effective.
 requirements: [
-  copper/1
-  titanium/1
-  pixelium/1
+  pixelium/2
 ]
 category: distribution
 speed: 0.4
-displayedSpeed: 12
+displayedSpeed: 36
 research: titanium-conveyor
