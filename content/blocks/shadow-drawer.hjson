@@ -1,0 +1,31 @@
+name: Shadow Drawer
+type: GenericSmelter
+description: Draws shadow pixels - the shards needed to create "The First Shade"
+health: 120
+size: 3
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 90
+updateEffect: plasticburn
+consumes: {
+  power: 1.2
+    items:{
+     items:[
+      spore-pod/10
+      silicon/5
+      thorium/5
+      pixelium/800
+      ]
+   }
+}
+requirements: [
+  copper/60
+  lead/70
+  graphite/100
+  surge-alloy/40
+  pixelium/200
+]
+category: crafting
+research: alloy-smelter
+outputItem: shadow-pixel/2
