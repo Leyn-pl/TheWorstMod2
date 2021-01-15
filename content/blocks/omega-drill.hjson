@@ -3,7 +3,7 @@ description: One of the few drills capable of mining Pixelium. Has tremendous po
 type: Drill
 size: 4
 health: 360
-drillTime: 140
+drillTime: 100
 tier: 8
 drawRim: true
 consumes: {
