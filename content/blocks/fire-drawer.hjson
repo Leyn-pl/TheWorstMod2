@@ -22,11 +22,11 @@ consumes: {
    }
 }
 requirements: [
-  lead/120
-  silicon/80
-  coal/60
-  surge-alloy/70
-  pixelium/180
+  copper/60
+  lead/70
+  graphite/100
+  surge-alloy/40
+  pixelium/200
 ]
 category: crafting
 research: alloy-smelter
