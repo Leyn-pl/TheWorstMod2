@@ -1,8 +1,10 @@
 name: Fire Drawer
 type: GenericSmelter
-description: Draws fire pixels - the shards needed to create "Bonfire"
+description: Draws fire pixels.
+itemCapacity: 600
+liquidCapacity: 20
 health: 120
-size: 3
+size: 2
 hasPower: true
 hasLiquids: false
 hasItems: true
@@ -10,7 +12,7 @@ craftTime: 90
 updateEffect: plasticburn
 consumes: {
   power: 4.5
-    liquid: slag/20
+    liquid: slag/0.3
     items:{
      items:[
       coal/5
