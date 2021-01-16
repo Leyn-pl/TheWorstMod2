@@ -1,0 +1,33 @@
+name: Titanium Drawer
+type: GenericSmelter
+description: Draws titanium pixels - the shards needed to create "Shielded Wall"
+itemCapacity: 500
+liquidCapacity: 20
+health: 120
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 300
+updateEffect: plasticburn
+consumes: {
+  power: 4.5
+    liquid: water/0.3
+    items:{
+     items:[
+      titanium/500
+      silicon/500
+      pixelium/500
+      ]
+   }
+}
+requirements: [
+  copper/60
+  lead/70
+  graphite/100
+  surge-alloy/40
+  pixelium/200
+]
+category: crafting
+research: alloy-smelter
+outputItem: titanium-pixel/1
