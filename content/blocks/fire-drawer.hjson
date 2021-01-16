@@ -1,6 +1,6 @@
 name: Fire Drawer
 type: GenericSmelter
-description: Draws shadow pixels - the shards needed to create "The First Shade"
+description: Draws fire pixels - the shards needed to create "Bonfire"
 itemCapacity: 500
 liquidCapacity: 20
 health: 120
