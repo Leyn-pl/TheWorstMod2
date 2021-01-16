@@ -1,7 +1,7 @@
 name: Fire Drawer
 type: GenericSmelter
-description: Draws fire pixels.
-itemCapacity: 600
+description: Draws shadow pixels - the shards needed to create "The First Shade"
+itemCapacity: 500
 liquidCapacity: 20
 health: 120
 size: 2
@@ -15,9 +15,9 @@ consumes: {
     liquid: slag/0.3
     items:{
      items:[
-      coal/5
-      pyratite/5
-      pixelium/600
+      coal/500
+      pyratite/500
+      pixelium/500
       ]
    }
 }
