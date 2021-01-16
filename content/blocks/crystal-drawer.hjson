@@ -30,4 +30,4 @@ requirements: [
 ]
 category: crafting
 research: alloy-smelter
-outputItem: shadow-pixel/1
+outputItem: crystal-pixel/1
