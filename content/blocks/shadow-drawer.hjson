@@ -4,11 +4,11 @@ description: Draws shadow pixels - the shards needed to create "The First Shade"
 itemCapacity: 500
 liquidCapacity: 20
 health: 120
-size: 3
+size: 2
 hasPower: true
 hasLiquids: false
 hasItems: true
-craftTime: 90
+craftTime: 300
 updateEffect: plasticburn
 consumes: {
   power: 4.5
