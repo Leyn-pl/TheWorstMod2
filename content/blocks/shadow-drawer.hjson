@@ -1,6 +1,7 @@
 name: Shadow Drawer
 type: GenericSmelter
 description: Draws shadow pixels - the shards needed to create "The First Shade"
+itemCapacity: 500
 health: 120
 size: 3
 hasPower: true
@@ -12,10 +13,10 @@ consumes: {
   power: 4.5
     items:{
      items:[
-      spore-pod/10
-      silicon/5
-      thorium/5
-      pixelium/800
+      spore-pod/500
+      silicon/500
+      thorium/500
+      pixelium/500
       ]
    }
 }
