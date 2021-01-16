@@ -1,0 +1,33 @@
+name: Crystal Drawer
+type: GenericSmelter
+description: Draws crystal pixels - the shards needed to create "Crystal Core"
+itemCapacity: 500
+liquidCapacity: 20
+health: 120
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 300
+updateEffect: plasticburn
+consumes: {
+  power: 4.5
+    liquid: cryofluid/0.3
+    items:{
+     items:[
+      plastanium/500
+      metaglass/500
+      pixelium/500
+      ]
+   }
+}
+requirements: [
+  copper/60
+  lead/70
+  graphite/100
+  surge-alloy/40
+  pixelium/200
+]
+category: crafting
+research: alloy-smelter
+outputItem: shadow-pixel/1
