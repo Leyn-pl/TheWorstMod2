@@ -10,6 +10,7 @@ craftTime: 90
 updateEffect: plasticburn
 consumes: {
   power: 4.5
+    liquid: slag/20
     items:{
      items:[
       coal/5
@@ -17,9 +18,6 @@ consumes: {
       pixelium/600
       ]
    }
-     liquid: {
-    slag/20
-  }
 }
 requirements: [
   lead/120
